@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ListView">
+        <activity
+            android:name=".Activity_Apple"
+            android:label="@string/title_activity__apple"
+            android:theme="@style/Theme.ListView.NoActionBar"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

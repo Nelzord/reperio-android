@@ -2,6 +2,7 @@ package com.example.listview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
@@ -12,7 +13,9 @@ public class MainActivity extends AppCompatActivity {
 
     SearchView searchView;
     ListView listView;
-    String[] nameList = {"Apple", "Banana", "Orange"};
+    String[] nameList = {"Chicken Alfredo: Italian | High Protein | Chicken",
+                            "Shrimp Scampi: Italian | High Protein | Shrimp",
+                            "Tofu Spring Rolls: Vietnamese | Vegetarian | Tofu"};
 
     ArrayAdapter<String> arrayAdapter;
 
@@ -22,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = findViewById(R.id.list_item);
-
-
         searchView = findViewById(R.id.search_bar);
 
 
@@ -33,9 +34,17 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                if (position == 0){
+                    Intent intent = new Intent(view.getContext(), Activity_Apple.class);
+                    startActivity(intent);
+                }
                 Toast.makeText(MainActivity.this, "You Click -"+adapterView.getItemAtPosition(position), Toast.LENGTH_SHORT).show();
             }
         });
+
+
+
+
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override

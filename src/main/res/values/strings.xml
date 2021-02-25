@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">ListView</string>
+    <string name="title_activity__apple">Activity_Apple</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="chicken_alfredo"><b><big>Ingredients</big></b>
+        \n <li>2 tbsp. extra-virgin olive oil</li>
+        \n <li>2 boneless skinless chicken breasts</li>
+        \n <li>Kosher salt</li>
+        \n <li>Freshly ground black pepper</li>
+        \n <li>1 1/2 c. whole milk</li>
+        \n <li>1 1/2 c. low-sodium chicken broth</li>
+        \n <li>2 cloves garlic, minced</li>
+        \n <li>8 oz. fetuccini</li>
+        \n <li>1/2 c. heavy cream</li>
+        \n <li>1 c. freshly grated Parmesan</li>
+        \n <li>Freshly chopped parsley, for garnish </li>
+        \n <big></big>
+        \n <b><big>Instructions</big></b>
+        \n <li>1.In a large skillet over medium-high heat, heat oil. Add chicken and season with salt and pepper. Cook until golden and cooked through, 8 minutes per side. Let rest 10 minutes, then slice. </li>
+        \n <li>2.Add milk, broth, and garlic to skillet. Season with salt and pepper and bring to a simmer. Add fettuccine, stirring frequently for about 3 minutes. Let cook until al dente, 8 minutes more. </li>
+        \n <li>3.Stir in heavy cream and Parmesan until combined. Simmer until sauce thickens. </li>
+        \n <li>4.Remove from heat and stir in sliced chicken. Garnish with parsley. </li>
+    </string>
+
+
 </resources>
+
