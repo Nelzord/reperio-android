@@ -15,7 +15,13 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     String[] nameList = {"Chicken Alfredo: Italian | High Protein | Chicken",
                             "Shrimp Scampi: Italian | High Protein | Shrimp",
-                            "Tofu Spring Rolls: Vietnamese | Vegetarian | Tofu"};
+                            "Tofu Spring Rolls: Vietnamese | Vegetarian | Tofu",
+                            "Chicken Pot Pie: American | High Protein | Chicken",
+                            "Shrimp Tacos: Mexican | High Protein | Shrimp",
+                            "Lemon Chicken: Italian | High Protein | Chicken",
+                            "Penne Bolognese: Italian | High Protein | Pasta",
+                            "Lentil Soup: Vegan | High Protein | Soup",
+                            "Chicken Burrito: Mexican | High Protein | Chicken"};
 
     ArrayAdapter<String> arrayAdapter;
 
